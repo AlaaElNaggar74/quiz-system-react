@@ -1,0 +1,79 @@
+.statistics {
+  /* background-color: rgb(128, 128, 128); */
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(154 131 255), rgb(196 190 225));
+  background-blend-mode: multiply;
+  padding: 30px 0;
+}
+
+.statistics .wrongBody {
+  border-radius: 10px;
+  background-color: #b5b5b5b5;
+  padding: 10px;
+}
+
+.statistics .details {
+  border-radius: 10px;
+  background-color: #b5b5b5b5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.statistics .details .item {
+  border-radius: 10px;
+  background-color: #cecece;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.statistics .details .item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.statistics .details .item .icon i {
+  color: white;
+}
+
+.statistics .details .item .icon i.fa-list {
+  color: rgb(0, 0, 0);
+}
+.statistics .details .item .icon i.fa-check {
+  color: rgb(54, 231, 10);
+}
+.statistics .details .item .icon i.fa-circle-xmark {
+  color: rgb(255, 4, 4);
+}
+.statistics .details .item .icon i.fa-trophy {
+  color: rgb(255, 187, 0);
+}
+
+.statistics .bg-custom-wrong {
+  background-color: #e419198f;
+  color: white;
+}
+.statistics .bg-custom-right {
+  background-color: #0ece18a6;
+  color: white;
+}
+
+.statistics .bg-custom-wrong {
+  background-color: #e419198f;
+  color: white;
+}
+.statistics .bg-custom-right {
+  background-color: #0ece18a6;
+  color: white;
+}
+
+
+.statistics .allCorrect{
+  
+}
+.statistics .allCorrect .image img{
+  width: 100%;
+  
+}

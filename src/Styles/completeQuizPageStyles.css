@@ -1,0 +1,24 @@
+
+.complete .completeBox {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .complete .circleTrue {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 10px solid #9db88f;
+  }
+  
+  .complete .childCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #d7ebce;
+  }
+  .complete .childCircle i {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
